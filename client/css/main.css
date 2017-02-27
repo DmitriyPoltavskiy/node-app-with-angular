@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-family: arial; }
+
+.todo-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80vh;
+  width: 70%;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #FFF; }
+  .todo-app header.todo-header {
+    padding: 20px 15px; }
+  .todo-app section.todo-body {
+    height: 70%;
+    padding: 20px 15px; }
+    .todo-app section.todo-body ul.body-tasks li {
+      list-style-type: none; }
+  .todo-app footer.todo-footer {
+    padding: 20px 15px; }
+    .todo-app footer.todo-footer textarea {
+      height: calc(100% - 40px);
+      width: calc(100% - 30px);
+      padding: 20px 15px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      resize: none; }
